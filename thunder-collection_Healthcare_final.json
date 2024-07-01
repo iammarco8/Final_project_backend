@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Healthcare_final",
+    "collectionId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+    "dateExported": "2024-05-09T04:19:28.901Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3ab4a4f8-ee25-4043-8831-8342d2cf56c7",
+            "colId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+            "containerId": "",
+            "name": "getAllAdmins",
+            "url": "http://localhost:6767/api/v1/admin/3",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-09T02:19:26.053Z",
+            "modified": "2024-05-09T04:15:44.370Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"f_nm\":\"Janet\",\n  \"l_nm\":\"HooO\",\n  \"p_nbr\":\"1-876-555-6543\",\n  \"eml\":\"yes@mail.com\",\n  \"pos\":\"sample\",\n  \"dep\":\"I.T.\",\n  \"pass\":\"password1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "922a7d02-4991-41cf-bc8a-0ac327de69b2",
+            "colId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+            "containerId": "",
+            "name": "getSingleAdmin",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-09T02:19:50.781Z",
+            "modified": "2024-05-09T02:19:50.781Z",
+            "headers": []
+        },
+        {
+            "_id": "7a739bb9-e5f0-446f-a3e1-027a2a216ec4",
+            "colId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+            "containerId": "",
+            "name": "createAdmin",
+            "url": "",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-09T02:20:14.470Z",
+            "modified": "2024-05-09T02:20:14.470Z",
+            "headers": []
+        },
+        {
+            "_id": "2db80a0c-2b24-4a9c-8041-252ea9f1975a",
+            "colId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+            "containerId": "",
+            "name": "updateAdmin",
+            "url": "",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-05-09T02:20:33.426Z",
+            "modified": "2024-05-09T02:20:33.426Z",
+            "headers": []
+        },
+        {
+            "_id": "9e261a96-20b3-479c-a19c-f8286ac8d682",
+            "colId": "f7c160e7-c06c-45ae-be43-9c14249bea32",
+            "containerId": "",
+            "name": "deleteAdmin",
+            "url": "",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-05-09T02:20:44.801Z",
+            "modified": "2024-05-09T02:20:44.801Z",
+            "headers": []
+        }
+    ],
+    "ref": "KB_DuzMoCyjm-63w2wN1xMK4gq8deNuPnnQ0ETb9xkXVziUT-laAFU1cI_smc_4_XkiC65N4BKwhxIDdXyeI1Q"
+}
